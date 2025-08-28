@@ -1,3 +1,9 @@
+//Função que faz a primeira letra de somente UMA PALAVRA ficar maiúscula
+      let letraMaiusculaUnica = (nome) => {
+            let nomeComeco = nome.charAt(0)
+            let restoNome = nome.substring(1);
+            return nome = nomeComeco.toUpperCase() + restoNome;};
+            
 //Função que faz todas as primeiras letras ficarem maiúsculas
       let letraMaiuscula = (nome) => {
             let nomeComeco;
@@ -10,12 +16,6 @@
             nomeCompletoMaiusculo.push(nomeComeco.toUpperCase() + restoNome);}
             return nomeCompletoMaiusculo.join(" ");};
 
-//Função que faz a primeira letra de somente UMA PALAVRA ficar maiúscula
-      let letraMaiusculaUnica = (nome) => {
-            let nomeComeco = nome.charAt(0)
-            let restoNome = nome.substring(1);
-            return nome = nomeComeco.toUpperCase() + restoNome;};
-            
 //Função que faz a primeira letra de todas as palavras MENOS AS PREPOSIÇÕES listadas na lista preposicao
       let letra_Maisc_Prep = (nome) => {
             let preposicao = ["a", "ante", "após", "até", "com", "contra", "de", "desde", "em",
