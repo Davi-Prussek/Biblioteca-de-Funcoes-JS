@@ -25,3 +25,5 @@
             while(Listafibonacci.length < n) {
                   Listafibonacci.push(Listafibonacci[Listafibonacci.length-1] + Listafibonacci[Listafibonacci.length-2]);
             } return Listafibonacci}
+
+//Função que calcula o fatorial de um número(estou fazendo)
