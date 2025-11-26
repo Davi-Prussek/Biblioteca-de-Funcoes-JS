@@ -19,3 +19,9 @@
 //Função para descobrir porcentagem de um valor
       let calcularPorcentagemDoValor = (a, b) => { return (b / a) * 100 }
     
+//Função pra calcular Fibonacci
+      let fibonacci = (n) => {
+            let Listafibonacci = [1,1];
+            while(Listafibonacci.length < n) {
+                  Listafibonacci.push(Listafibonacci[Listafibonacci.length-1] + Listafibonacci[Listafibonacci.length-2]);
+            } return Listafibonacci}

@@ -3,7 +3,7 @@
             let nomeComeco = nome.charAt(0)
             let restoNome = nome.substring(1);
             return nome = nomeComeco.toUpperCase() + restoNome;};
-            
+
 //Função que faz todas as primeiras letras ficarem maiúsculas
       let letraMaiuscula = (nome) => {
             let nomeComeco;
@@ -24,12 +24,12 @@
             let restoNome;
             let nomeCompletoMaiusculo = [];
             let primeiraLetra = nome.split(" ");
-                  for (let i = 0; i < primeiraLetra.length; i++) {
-                        let palavraMinuscula = primeiraLetra[i].toLowerCase();
-                              if (preposicao.includes(primeiraLetra[i])) {
-                                    nomeCompletoMaiusculo.push(palavraMinuscula);    
-                              }else {
-                                    nomeComeco = primeiraLetra[i].charAt(0);
-                                    restoNome = primeiraLetra[i].substring(1);
-                                    nomeCompletoMaiusculo.push(nomeComeco.toUpperCase() + restoNome)}};
-      return nomeCompletoMaiusculo.join(" ");};
+            for (let i = 0; i < primeiraLetra.length; i++) {
+            let palavraMinuscula = primeiraLetra[i].toLowerCase();
+            if (preposicao.includes(primeiraLetra[i])) {
+            nomeCompletoMaiusculo.push(palavraMinuscula);    
+            }else {
+            nomeComeco = primeiraLetra[i].charAt(0);
+            restoNome = primeiraLetra[i].substring(1);
+            nomeCompletoMaiusculo.push(nomeComeco.toUpperCase() + restoNome)}};
+            return nomeCompletoMaiusculo.join(" ");};
